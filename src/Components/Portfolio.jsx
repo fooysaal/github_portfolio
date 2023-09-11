@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/do-smething-great.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Boost your career by doing something great";
 
 /**
  * Project list
@@ -31,10 +31,10 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Laravel Mobile Service Shop",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A project that benefitted the mobile service shop owners and the customers. The customers can easily find the mobile service shops near them and the shop owners can easily manage their shops and services.",
+    url: "https://github.com/fooysaal/lv_mobile_serviceshop",
   },
   {
     title: "Web Development for Beginners",
@@ -46,13 +46,13 @@ const projectList = [
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://github.com/fooysaal/github_portfolio",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "More projects",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "You can always find more projects on my GitHub profile. I'm continually learning and adding to my portfolio.",
+    url: "https://github.com/fooysaal?tab=repositories",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "95%", width: "95%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
